@@ -36,9 +36,9 @@ const foodList = [
 
 // Write a function to get the first element in an array. Invoke the function. 
 
-function getFirstElement(arr) {
-    return arr[0];
+function getFirstElement() {
+        return foodList[0];
   }
   
-getFirstElement([1, 2, 3]); // returns 1
+ console.log(getFirstElement());
     
