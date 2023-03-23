@@ -3,7 +3,7 @@ function multiplyTwoNumbers(num1, num2) {
     return num1 * num2
 }
 
-const answer = multiplyTwoNumbers(12, 12);
+const answer = multiplyTwoNumbers(2, 2);
 console.log(answer);
 
 // Write a function named assignGrade, that takes one argument, number score (example: 90). Return a grade for the score, either “A,” “B,” “C,” “D,” or “F.
@@ -16,9 +16,8 @@ function assignGrade(grade) {
         return "Your grade assignment is C.";
     } else if (grade >= 65 && grade < 70) {
         return "Your grade assignment is D.";
-    } else {   
-    return "Your grade assignment is F.";
-    }
+    } else return "Your grade assignment is F.";
+    
 }
 
 const gradeAssignment = assignGrade(80);
